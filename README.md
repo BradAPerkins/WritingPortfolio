@@ -1,2 +1,0 @@
-# WritingPortfolio
-Writing Portfolio
