@@ -30,10 +30,20 @@ h1, h2, h3, h4 {
 }
 
 .portfolio-font {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Special Elite", sans-serif;
   color: #fff;
   font-style: normal;
   font-size: 24px;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.portfolio-category-font {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  color: #fff;
+  font-style: normal;
+  font-size: 18px;
   text-align: center;
 }
 
