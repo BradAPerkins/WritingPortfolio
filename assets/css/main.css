@@ -38,6 +38,17 @@ h1, h2, h3, h4 {
   padding-top: 12px;
 }
 
+.portfolio-font-logline {
+  font-family: "Special Elite", sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-size: 12px;
+  text-align: left;
+  padding-top: 2px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
 .portfolio-category-font {
   font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
@@ -56,6 +67,39 @@ h1, h2, h3, h4 {
 }
 
 .portfolio-section-padding {
+  padding: 20px 0;
+}
+
+
+/* -----RESUME------ */
+
+
+
+.resume-section-title{
+  font-family: "Source Sans Pro", sans-serif;
+  color: #666;
+  font-style: normal;
+  margin-top: 0px;
+  font-size: 42px;
+  text-align: center;
+}
+
+.resume-section-padding {
+  padding: 20px 0;
+}
+
+.timelin-title{
+  font-size: 32px;
+}
+
+.resume-line-title{
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-size: 24px;
+}
+
+
+.video {
   padding: 20px 0;
 }
 
@@ -144,6 +188,19 @@ ul li, ol li {
   position: relative;
 }
 
+.section-title-white {
+  color: #fff;
+  /* font-family: 'Special Elite', cursive; */
+  font-size: 38px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-bottom: 48px;
+  padding: 0 10px;
+  position: relative;
+}
+
+
 .btn {
   font-size: 14px;
   padding: 10px 30px;
@@ -170,6 +227,13 @@ ul li, ol li {
 .btn-common {
   background-color: #B20000;
   position: relative;
+  z-index: 1;
+}
+
+.btn-common-resume {
+  background-color: #B20000;
+  margin-top: 20px;
+  position: center;
   z-index: 1;
 }
 
@@ -317,7 +381,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .section-padding {
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 
@@ -338,6 +402,10 @@ a.back-to-top:hover, a.back-to-top:focus {
 .profile-wrapper .btn i {
   vertical-align: middle;
   margin-right: 5px;
+}
+
+.about-title{
+
 }
 
 .about-profile {
@@ -840,9 +908,13 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   opacity: 1;
 }
 
+.contact-section{
+  background: #333;
+}
+
 .contact-form-area {
   background: #fff;
-  box-shadow: 0 0 30px #ededed;
+  box-shadow: 0 0 10px #ededed;
   padding: 60px 40px;
 }
 
