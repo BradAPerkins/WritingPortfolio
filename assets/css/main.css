@@ -238,13 +238,23 @@ ul li, ol li {
 }
 
 .btn-common:hover {
-  color: #B20000;
+  /* color: #B20000;
   background-color: #fff;
   border-color: #B20000;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out; */
+
+  color: #fff;
+  background-color: #B20000;
+  border-color: #B20000;
+  padding: 15px 40px;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
+
 }
 
 .btn-danger:hover {
@@ -327,6 +337,52 @@ button:focus {
 .social-icon li .imdb:hover {
   background: #B20000;
 }
+
+/* LinkedIn resumeIcon */
+.social-icon-linkedin li {
+  display: inline-block;
+}
+
+.social-icon-linkedin li a {
+  color: #fff;
+  background: #B20000;
+  width: 35px;
+  height: 35px;
+  line-height: 38px;
+  display: block;
+  text-align: center;
+  border-radius: 100%;
+  font-size: 16px;
+  margin: 15px 6px 12px 6px;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+}
+
+.social-icon-linkedin li a:hover {
+  color: #fff;
+}
+
+.social-icon-linkedin li .linkedin-res:hover {
+  background: #B20000;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 48px;
+  display: block;
+  text-align: center;
+  border-radius: 100%;
+  font-size: 16px;
+  margin: 15px 6px 12px 6px;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+}
+
+
+
 
 /* ScrollToTop */
 a.back-to-top {
