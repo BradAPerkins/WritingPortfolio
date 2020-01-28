@@ -16,7 +16,6 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: subpixel-antialiased;
-  color: #666;
   line-height: 25px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -88,11 +87,31 @@ h1, h2, h3, h4 {
   padding: 20px 0;
 }
 
+.resume-section-bg{
+  padding: 20px;
+  /* background: url(../img/bodybg.jpg) no-repeat; */
+  background: linear-gradient( rgba(255, 254, 254, 0.9), rgba(255, 254, 254, 0.9) ), url(../img/bodybg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.contact-section-bg{
+  padding: 20px;
+  /* background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/benchbg.jpg); */
+  background-size: cover;
+}
+
 .timelin-title{
+  color: #666;
   font-size: 32px;
 }
 
+.line-text{
+  color: #666;
+  font-size: 16px;
+}
+
 .resume-line-title{
+  color: #666;
   margin-top: 8px;
   margin-bottom: 0px;
   font-size: 24px;
@@ -821,7 +840,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   Portfolio Section
    ========================================================================== */
 #portfolios {
-  background: #333;
+  /* background: #333; */
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/bodybg.jpg);
+  background-size: cover;
+
 }
 
 #portfolios .mix {
@@ -830,6 +852,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #portfolios .portfolio-item .shot-item {
   margin: 0px;
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) );
+
 }
 
 #portfolio .mix {
@@ -985,7 +1009,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .contact-form-area {
-  background: #fff;
+  /* background: #fff; */
+  background: linear-gradient( rgba(255, 254, 254, 0.9), rgba(255, 254, 254, 0.9) ), url(../img/bodybg.jpg) no-repeat;
+  background-size: cover;
   box-shadow: 0 0 10px #ededed;
   padding: 10px 40px;
 }
@@ -1037,6 +1063,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .footer-right-contact .single-contact p a {
   color: #666;
+  
 }
 
 .footer-right-contact .contact-icon {
@@ -1088,6 +1115,12 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 /* Footer Area Start */
 .footer-area {
   background: #1C1C20;
+  /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/bodybg.jpg); */
+}
+
+.blurred-bg {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/bodybg.jpg) no-repeat;
+  background-size: cover;
 }
 
 .footer-area .footer-text p {
