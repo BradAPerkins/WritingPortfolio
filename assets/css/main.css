@@ -9,7 +9,7 @@ html {
 
 body {
   background: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
   -webkit-box-sizing: border-box;
@@ -42,7 +42,7 @@ h1, h2, h3, h4 {
   font-family: "Special Elite", sans-serif;
   color: #fff;
   font-style: normal;
-  font-size: 12px;
+  font-size: 16px;
   text-align: left;
   padding-top: 2px;
   padding-left: 12px;
@@ -54,7 +54,7 @@ h1, h2, h3, h4 {
   font-style: normal;
   color: #fff;
   font-style: normal;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -171,7 +171,7 @@ ul li, ol li {
 
 .section-title-header p {
   text: center;
-  font-weight: 400;
+  font-weight: 00;
   line-height: 26px;
   padding-bottom: 36px;
 }
@@ -278,6 +278,11 @@ ul li, ol li {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.btn-contact-layout{
+  display: inline-block;
+  margin: 5px;
+}
+
 .btn-lg {
   padding: 14px 33px;
   text-transform: uppercase;
@@ -296,6 +301,7 @@ button:focus {
 .icon-close, .icon-check {
   color: #B20000;
 }
+
 
 .social-icon li {
   display: inline-block;
@@ -766,7 +772,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #main-area .contents {
-  padding: 175px 0px 120px;
+  padding: 120px 0px 60px;
 }
 
 #main-area .contents h5 {
@@ -775,14 +781,14 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #main-area .contents .head-title {
   color: #fff;
-  font-size: 80px;
+  font-size: 40px;
   letter-spacing: 10px;
   text-transform: uppercase;
   font-weight: 700;
 }
 
 #main-area .contents p {
-  font-size: 30px;
+  font-size: 16px;
   color: #fff;
   font-weight: 400;
   line-height: 30px;
@@ -945,8 +951,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 ---------FORM STUFF-------------------------------- */
 .form-control {
   width: 100%;
-  margin-bottom: 20px;
-  font-size: 14px;
+  margin-bottom: 10px;
+  font-size: 16px;
   border-radius: 0;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -964,6 +970,16 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   opacity: 1;
 }
 
+.center-cont {
+  margin: auto;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  right: 0px;
+}
+
 .contact-section{
   background: #333;
 }
@@ -971,12 +987,28 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .contact-form-area {
   background: #fff;
   box-shadow: 0 0 10px #ededed;
-  padding: 60px 40px;
+  padding: 10px 40px;
 }
 
 .contact-form-area h2 {
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
+}
+
+.img-contact {
+  
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  
+}
+
+
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-right-contact {
@@ -985,8 +1017,15 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   margin-top: 30px;
 }
 
+.footer-right-contact-lower {
+  border: 1px solid #e1e1e1;
+  margin-top: 20px;
+}
+
 .footer-right-contact .single-contact {
-  margin: 10px 22px;
+  margin-top: 10px;
+  margin-left: 2px;
+  margin-bottom: 10px;
   padding: 3px 55px;
   position: relative;
   color: #666;
@@ -1026,7 +1065,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .text-danger {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 10px;
 }
 
@@ -1052,7 +1091,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .footer-area .footer-text p {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 20px;
   color: #fff;
 }
@@ -1087,7 +1126,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .footer-2 p {
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
   line-height: 20px;
   margin: 0;
@@ -1096,7 +1135,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .footer-2 ul li a {
   color: #fff;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 400;
 }
 

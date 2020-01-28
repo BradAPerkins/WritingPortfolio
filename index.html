@@ -80,20 +80,35 @@
 
         <!-- Mobile Menu Start -->
         <ul class="onepage-nev mobile-menu">
-          <li>
-            <a href="#home">Home</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#main-area">
+              Home
+            </a>
+            <!-- <a href="#home">Home</a> -->
+          </liclass="nav-item">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">
+              About
+            </a>
+            <!-- <a href="#about">about</a> -->
           </li>
-          <li>
-            <a href="#about">about</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolios">
+              Work
+            </a>
+            <!-- <a href="#portfolio">Work</a> -->
           </li>
-          <li>
-            <a href="#portfolio">Work</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">
+              Experience
+            </a>
+            <!-- <a href="#resume">Experience</a> -->
           </li>
-          <li>
-            <a href="#resume">Experience</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">
+              Contact
+            </a>
+            <!-- <a href="#contact">Contact</a> -->
           </li>
 
         </ul>
@@ -109,7 +124,7 @@
             <div class="col-md-12 col-sm-12 text-center">
               <div class="contents">
                 <h2 class="head-title wow fadeInUp" data-wow-delay="0.4s">Brad Perkins</h2>    
-                <h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">Screenwriter, Author and Comic Book Writer</h5>
+                <h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">Screenwriter, Author, and Comic Book Writer</h5>
 
                 <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
                   <li>
@@ -152,16 +167,16 @@
           </div> 
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
-              <p>My name is Brad Perkins and I write fictional crime drama for various medias. 
-                The medias include film, television, comics as well as novels. 
+              <p>My name is Brad Perkins and I write fictional crime dramas for film, television, comics and novels. 
+                The mediums include film, television, comics as well as novels. 
                 My objective with my work is to invoke an authentic feel 
                 for my characters and my stories that’s conveyed to my audience, 
                 whether on film, television or in print. </p>
 
                 <p></p>
 
-                <p class="line-text" style="padding-top: 20px"> With my life experiences and the love for the crime genre as a whole, 
-                  I can depict real-life situations and create appealing crime and mystery stories.  
+                <p class="line-text" style="padding-top: 20px"> With my life experiences and my love for the crime genre as a whole, 
+                  I can depict real-life situations that create appealing crime and mystery stories.  
                   Being a fan and a student of the genre has helped me understand how to 
                   write a compelling and suspenseful fictional crime story.  </p">
 
@@ -285,6 +300,7 @@
 
     <!-- Resume Section Start -->
     <section id="resume" class="resume-section-padding">
+      <div class="container">
       <div id="resume" class="section-padding">
         <div class="container">
           <h2 class="resume-section-title wow flipInX" data-wow-delay="0.4s">Experience</h2>
@@ -305,7 +321,7 @@
                   </li>
                   <li>
                     <div class="content-text">
-                      <h3 class="resume-line-title">MFA Mobile Development - Full Sail University</h3>
+                      <h3 class="resume-line-title">MFA Creative Writing - Full Sail University</h3>
                       <span>2019 - 2020</span>
                       <p class="line-text">In Full Sail’s Creative Writing MFA program, 
                         they taught the ways to take storytelling to the next level by incorporating visual elements into your writing process. 
@@ -330,7 +346,7 @@
               <div class="experience wow fadeInRight" data-wow-delay="0.6s">
                 <ul class="timeline">
                   <li>
-                    <i class="icon-briefcase"></i>
+                    <i class="icon-briefcase contact-icon"></i>
                     <h2 class="timelin-title">Work Experience</h2>
                   </li>
                   <li>
@@ -381,7 +397,7 @@
         </a>
       </div>
 
-
+    </div>
   </section>
   <!-- Resume Section End -->
 
@@ -389,14 +405,24 @@
     <section id="contact" class="section-padding  contact-section">
       <div class="contact-form">
         <h2 class="section-title-white wow fadeInUp" data-wow-delay="0.4s">Contact</h2> 
+
         <div class="container">
+      
           <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">
+
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <!-- <div class="footer-right-contact"> -->
+                <img class="img-fluid imgcenter img-contact" width="auto" height="auto" src="assets/img/about/contactimg.jpg" alt="">
+              <!-- </div> -->
+
+            </div>
+            
+
             <div class="col-md-6 col-lg-6 col-sm-12">
               <div class="contact-block">
-                <h2>Contact Form</h2>
+                <!-- <h2>Contact Form</h2> -->
                 <form id="contactForm" action="https://formspree.io/contact@bradaperkins.com" method="POST">
                   <div class="row">
-
                     <div class="col-md-6">
                       <div class="form-group">
                         <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
@@ -412,7 +438,6 @@
                         <div class="help-block with-errors"></div>
                       </div> 
                     </div>
-
 
                     <div class="col-md-12">
                       <div class="form-group">
@@ -431,6 +456,19 @@
                         <button class="btn btn-common" onclick="getEmailData()" id="submitMsg" type="submit">Send Message</button>
                         <div id="msgSubmit" class="h3 text-center hidden"></div> 
                       </div>
+                  
+                      <div class="footer-right-contact ">
+                        <div class="single-contact">
+                          <a class="contact-icon fa fa-envelope" href="mailto:contact@bradaperkins.com"></a>
+                          <p><a href="mailto:contact@bradaperkins.com">contact@bradaperkins.com</a></p>
+                        </div>
+      
+                        <div class="single-contact">
+                          <a class="contact-icon fa fa-google" href="mailto:bperkins99@gmail.com"></a>
+                          <p><a href="mailto:bperkins99@gmail.com">bperkins99@gmail.com</a></p>
+                        </div>
+                      </div>
+
                     </div>
 
                   </div>
@@ -438,36 +476,53 @@
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-6 col-sm-12">
+
+            <!--  -->
+            <!-- <div class="col-md-6 col-lg-6 col-sm-12">
               <div class="footer-right-area wow fadeIn">
                 <h2>Contact Info</h2>
+              
                 <div class="footer-right-contact">
-                  <div class="single-contact">
-                    <div class="contact-icon">
-                      <i class="fa fa-map-marker"></i>
-                    </div>
-                    <p>Shelby, OH</p>
+                <div class="single-contact">
+                  <div class="contact-icon">
+                    <i class="fa fa-map-marker"></i>
                   </div>
-                  <div class="single-contact">
-                    <div class="contact-icon">
-                      <i class="fa fa-envelope"></i>
-                    </div>
-                    <p><a href="mailto:contact@bradaperkins.com">contact@bradaperkins.com</a></p>
-                    <p><a href="mailto:bperkins99@gmail.com">bperkins99@gmail.com</a></p>
+                  <p>Shelby, OH</p>
+                </div>
+                <div class="single-contact">
+                  <div class="contact-icon">
+                    <i class="fa fa-envelope"></i>
                   </div>
-                  <div class="single-contact">
-                    <div class="contact-icon">
-                      <i class="fa fa-phone"></i>
-                    </div>
-                    <!-- <p><a href="tel:4196129434">(419)612-9434</a></p> -->
-                    <p><a>(419)612-9434</a></p>
+                  <p><a href="mailto:contact@bradaperkins.com">contact@bradaperkins.com</a></p>
+                  <p><a href="mailto:bperkins99@gmail.com">bperkins99@gmail.com</a></p>
+                </div>
+                </div>
+                </div>
+            </div> -->
+            <!--  -->
 
+            <!-- <div class="container">
+              <div class="row center-cont">
+                 
+                <div class="footer-right-contact ">
+                  <div class="single-contact">
+                    <a class="contact-icon fa fa-envelope" href="mailto:contact@bradaperkins.com"></a>
+                    <p><a href="mailto:contact@bradaperkins.com">contact@bradaperkins.com</a></p>
+                  </div>
+
+                  <div class="single-contact">
+                    <a class="contact-icon fa fa-google" href="mailto:bperkins99@gmail.com"></a>
+                    <p><a href="mailto:bperkins99@gmail.com">bperkins99@gmail.com</a></p>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
           </div>
+
+
+
+
         </div>
       </div>
     </section>
