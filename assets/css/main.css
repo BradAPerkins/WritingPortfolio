@@ -49,7 +49,8 @@ h1, h2, h3, h4 {
 }
 
 .portfolio-category-font {
-  font-family: "Source Sans Pro", sans-serif;
+  /* font-family: "Source Sans Pro", sans-serif; */
+  font-family: "Special Elite", sans-serif;
   font-style: normal;
   color: #fff;
   font-style: normal;
@@ -1193,3 +1194,12 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 #copyright p a:hover {
   color: #B20000;
 }
+
+
+p{
+  font-size: 17px;
+  line-height: 1.6em; /* 1em = 12px in this case. 20/12 == 1.666666  */
+
+
+}
+
