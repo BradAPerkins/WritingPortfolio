@@ -612,7 +612,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar li.active a.nav-link {
-  color: #fff;
+  color: #B20000;
 }
 
 .dropdown-toggle::after {
@@ -775,6 +775,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: url(../img/main-area.jpg) no-repeat;
   background-size: cover;
 }
+
+
 
 #main-area {
   color: #fff;
